@@ -59,7 +59,7 @@ function renderGame() {
         hasBlackJack = true;
 
         //update player stats
-        player.chips+=50;
+        player.chips+=5;
         currentStats();
 
     } else {
@@ -67,7 +67,7 @@ function renderGame() {
         isAlive = false;
 
         //update player stats
-        player.chips-=50;
+        player.chips-=5;
         currentStats();
     }
     messageEl.textContent = message;
